@@ -1,0 +1,13 @@
+:root {
+  --clr-primary: 127 66% 50%;
+  --clr-light: 127 45% 95%;
+  --clr-dark: 127 3% 18%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(var(--clr-dark));
+  color:hsl(var(--clr-light))
+}
